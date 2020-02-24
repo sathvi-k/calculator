@@ -7,7 +7,7 @@ class Counter extends Component {
     constructor() {
         super();
         this.state = {
-            counter: 0
+            counter: 0 // Count is intially 0
         }
         this.increment = this.increment.bind(this); 
         this.decrement = this.decrement.bind(this); 
