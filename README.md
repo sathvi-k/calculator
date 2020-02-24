@@ -1,3 +1,11 @@
+Clone this repository onto your computer using git clone https://github.com/sathvi-k/calculator.git>.
+
+Then, in terminal, navigate to your local version of this repository, and run npm start. The application should open in your browser at http://localhost:3000/. 
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
