@@ -1,8 +1,8 @@
 ## Instructions to run this application:
 
-Clone this repository onto your computer using 'git clone https://github.com/sathvi-k/calculator.git'
+Clone this repository onto your computer using 'git clone https://github.com/sathvi-k/counter.git'
 
-Then, in terminal, navigate to your local version of this repository, and run npm start. The application should open in your browser at http://localhost:3000/. 
+Then, in terminal, navigate to your local version of this repository, and run 'npm start' (make sure to download NodeJS if you don't already have it installed!!). The application should open in your browser at http://localhost:3000/. 
 
 
 -----------------------------------------------------------------------------------------------------------
