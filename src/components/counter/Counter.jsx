@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import './Counter.css'
 
 class Counter extends Component {
-    
+
     constructor() {
         super();
         this.state = {
@@ -16,6 +16,7 @@ class Counter extends Component {
 
     render() {
         return (
+            // create 6 buttons: an increase and decrease button for each value
             <div className="counter">
                 <CounterButton by={1} incrementMethod={this.increment} decrementMethod={this.decrement}/>
                 <CounterButton by={5} incrementMethod={this.increment} decrementMethod={this.decrement}/>
@@ -26,10 +27,12 @@ class Counter extends Component {
         )
     }
 
+    // Resets count to 0
     reset () {
         this.setState( {counter: 0} );
     }
 
+    // Increase count by amount on button clicked
     increment (by) {
         this.setState(
             (prevState) => {
@@ -38,6 +41,7 @@ class Counter extends Component {
         );
     }
 
+    // Decrease count by amount on button clicked
     decrement (by) {
         this.setState(
             (prevState) => {
